@@ -1,0 +1,41 @@
+.slide6__wrapper img{
+  width: 80%;
+  height: 80%;
+    transform: scale(0.1);
+  animation: zoomDown 2s;
+}
+.slide6__wrapper h3{
+  position: absolute;
+  width: 100%;
+  top: 1em;
+  left: 0;
+  z-index: 2;
+  color: white;
+  opacity:1;
+  animation: fadeIn 2s;
+}
+@keyframes zoomDown {
+  0%, 24.9%{
+    transform: scale(1)
+  }
+  25%, 49.9%{
+      transform: scale(.75)
+  }
+  50%, 74.9%{
+      transform: scale(0.5)
+  }
+  75%, 99.9%{
+      transform: scale(0.25)
+  }
+  100%{
+      transform: scale(0.1)
+  }
+}
+@keyframes fadeIn {
+  0%, 75%{
+    opacity: 0;
+  }
+  90%, 100%{
+    opacity: 1;
+  }
+}

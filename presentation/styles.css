@@ -1,0 +1,14 @@
+
+.full-size{
+  padding: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  margin: 0 !important;
+  transform: none !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slide17__wrapper p{
+  font-size: 0.8em;
+}

@@ -1,0 +1,17 @@
+.slide1__heading{
+animation: changeColor 1s linear infinite;
+font-size: 5em !important;
+opacity:0;
+transition: all .2s;
+}
+.slide1__heading.shown{
+opacity:1;
+}
+@keyframes changeColor {
+  0%{
+    color:white;
+  }
+  50%{
+    color:#333;
+  }
+}

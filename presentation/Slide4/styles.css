@@ -1,0 +1,15 @@
+.slide4__down-wrapper{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background: #333;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+    padding-top: 1em;
+    font-size: 1.2em;
+}
+.slide4__down-wrapper h1{
+
+}

@@ -1,0 +1,5 @@
+.slide5__wrapper h3::first-letter{
+  color:#27ae60;
+  font-size: 1.2em;
+  text-align: left;
+}
